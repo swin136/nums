@@ -36,3 +36,7 @@ print(f"Новый список >>> {symbs}")
 print(f"Первые 3 символа >>> {symbs[:3]}")
 print(f"Остальные символы >>> {symbs[3:]}")
 
+symbs  = list("Python is forever")
+print(f"Новый список >>> {symbs}")
+print(f"Длина списка {len(symbs)}")
+
