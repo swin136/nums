@@ -43,5 +43,13 @@ nums = list(range(30, 41))
 print(f"Ещё список чисел >>> {nums}")
 
 
+# Список городов
+
+city_list = ["New York", "Los Angeles", "Chicago", "Houston", "Philadelphia", "Los Swinus", "Baltimor", "Barad-Dur", "Minas Tirit", "Minas Morgul"]
+print("Выбор случайного города из списка - ", random.choice(city_list))
+print("Выбор случайного города из списка - ", random.choice(city_list))
+print("Выбор случайного города из списка - ", random.choice(city_list))
+
+
 
 
