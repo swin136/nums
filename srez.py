@@ -29,3 +29,10 @@ symbs[1:4] = ["1",  "1", "1" ]
 
 print(f"Новый список >>> {symbs}")
 
+
+symbs = list("Neverland")
+print(f"Новый список >>> {symbs}")
+
+print(f"Первые 3 символа >>> {symbs[:3]}")
+print(f"Остальные символы >>> {symbs[3:]}")
+
