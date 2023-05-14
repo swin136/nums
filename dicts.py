@@ -22,3 +22,8 @@ print(morse_code.get("2"))
 print(morse_code.get("1"))
 
 
+
+if morse_code.get(" ") == None:
+    print("В словаре нифига нет!")
+
+
