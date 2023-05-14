@@ -6,6 +6,11 @@
 
 import random
 
+
+def get_random_word(words):
+    return str(random.choice(words)).lower()
+
+
 MAX_NUM = 6
 
 # Генерируем нечетные числа
@@ -24,7 +29,7 @@ nums_2 = [2*k for k in range (1, MAX_NUM+1)]
 print(f"Выводим обычные числа  >>> {nums_annual}")
 
 #Нечетные числа
-print(f"Выводим нечетные числа  >>> {nums}")
+print(f"Выводим нечетные  числа  >>> {nums}")
 #Четные числа
 print(f"Выводим нечетные числа  >>> {nums_2}")
 
@@ -49,7 +54,25 @@ city_list = ["New York", "Los Angeles", "Chicago", "Houston", "Philadelphia", "L
 print("Выбор случайного города из списка - ", random.choice(city_list))
 print("Выбор случайного города из списка - ", random.choice(city_list))
 print("Выбор случайного города из списка - ", random.choice(city_list))
+print("Выбор случайного города из списка - ", random.choice(city_list))
 
+
+word_list = ["bird", "tree", "freedom", "random", 
+              "magic", "power", "glory", "seed", "beauty",
+              "flower", "reeder", "writer", "save", "spirit",
+              "heart", "friend", "queen", "innuendo", "rapsody",
+              "trip", "type", "python", "pascal", "ruby", "Welcome",
+              "morning", "day", "moon", "west", "north", "east", "south",
+              "god", "kingthom", "swap", "linux", "pray", "Sault", "unix", 
+              "FreeBSD", "OpenBSD", "FreeNas", "Debian"]
+
+
+
+for number in range(8):
+    print(f"Случайное слово № {number+1} из списка >>> {get_random_word(word_list)} <<<")
+    
+
+print(">>>>>>>>")
 
 
 
