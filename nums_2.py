@@ -6,8 +6,10 @@ print(f"Исходный масссив {list(nums)}")
 print(f"Часть массива {nums[2:]}")
 print(f"Последний элемент {nums[-1]}")
 
-print(f"Отсортированный массив {sorted(nums)}")
 
+nums2 = sorted(nums, reverse = True)
+print(f"Отсортированный массив {list(nums2)}")
+print(f"Часть массива {list(nums2[2:5])}")
 
 
 
