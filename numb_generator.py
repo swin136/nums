@@ -73,6 +73,8 @@ for number in range(8):
     
 
 print(">>>>>>>>")
+input("Нажми Enter для начала работы >>> ")
+print(">>>>>>>>")
 
 
 
