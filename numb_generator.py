@@ -64,7 +64,7 @@ word_list = ["bird", "tree", "freedom", "random",
               "trip", "type", "python", "pascal", "ruby", "Welcome",
               "morning", "day", "moon", "west", "north", "east", "south",
               "god", "kingthom", "swap", "linux", "pray", "Sault", "unix", 
-              "FreeBSD", "OpenBSD", "FreeNas", "Debian"]
+              "FreeBSD", "OpenBSD", "FreeNas", "Debian", "pillow", "capital", "tower", "user"]
 
 
 
